@@ -5,7 +5,7 @@ Here's the problem:  "A shooter can hit the target 1 out of 10 attempts. How man
 
 This can be solved with the help of the Binomial Distribution (https://en.wikipedia.org/wiki/Binomial_distribution)... but that requires math.
 
-So this repo presents a solution in Python, and Go (with and without goroutines... this whole repo is just an excuse for me to play with goroutines).
+So this repo presents a solution in Python, and Go.
 
 Instead of actually doing the math, we're going to run 100,000 simulations (way more than we need) while keeping track of how many shots it takes to hit the target.  Then we're going to find the midway point of that distribution, and discover that it takes 7 attempts to make sure the target is hit half of the time
 
