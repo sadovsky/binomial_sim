@@ -23,7 +23,7 @@ func main() {
 		}
 	}
 
-	//shit, go doesn't have a median function so lets hack one
+	//go doesn't have a median function so lets hack one
 	sort.Ints(trials[:])
 	//even number of elements... but meh, this is close enough
 	fmt.Println(trials[50000])
